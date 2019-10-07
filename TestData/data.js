@@ -176,8 +176,32 @@ const Addendums = {
       ]
    },
 
-   event_comment_id: {
-      details: "test comment on event",
+   event_comment_id1: {
+      details: "1",
+      date_created: "08/04/2019",
+      created_by: "amanda",
+      reference: "/Artefacts/making_crest_id"
+   },
+   event_comment_id2: {
+      details: "2",
+      date_created: "08/04/2019",
+      created_by: "amanda",
+      reference: "/Artefacts/wedding_ring_id"
+   },
+   event_comment_id3: {
+      details: "3",
+      date_created: "08/04/2019",
+      created_by: "amanda",
+      reference: "/Artefacts/wedding_ring_id"
+   },
+   event_comment_id4: {
+      details: "4",
+      date_created: "08/04/2019",
+      created_by: "amanda",
+      reference: "/Artefacts/making_crest_id"
+   },
+   event_comment_id5: {
+      details: "5",
       date_created: "08/04/2019",
       created_by: "amanda",
       reference: "/Artefacts/making_crest_id"
@@ -280,7 +304,7 @@ const People = {
       date_created: "29/06/2000",
       dob: "01/01/1961",
       created_by: "liam",
-      name: "Melanie",
+      name: "Liam",
       lastname: "Gilbert",
       details: "Father of Amanda and Sam",
       artefacts_links: [

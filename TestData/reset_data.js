@@ -93,15 +93,15 @@ delete_test_button.addEventListener("click", e => {
    delete_collection("Tests");
 });
 
-delete_button.addEventListener("click", e => {
-   e.stopPropagation();
+// delete_button.addEventListener("click", e => {
+//    e.stopPropagation();
 
-   delete_collection("Artefacts");
-   delete_collection("Addendums");
-   delete_collection("People");
-   delete_collection("Users");
-   delete_collection("Events");
-});
+//    delete_collection("Artefacts");
+//    delete_collection("Addendums");
+//    delete_collection("People");
+//    delete_collection("Users");
+//    delete_collection("Events");
+// });
 upload_button.addEventListener("click", e => {
    e.stopPropagation();
 
