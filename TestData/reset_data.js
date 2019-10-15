@@ -141,7 +141,7 @@ function upload_collection(path, javascript_object) {
       let value = parse_object(document[1]);
       // add to database
       db.doc(path + "/" + docId)
-         .set(value)
+         .set(value, {merge: true})
          .then(function() {
             render_output("Success:" + docId);
             console.log(">>>> Uploading");

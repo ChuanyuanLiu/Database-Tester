@@ -2,47 +2,47 @@
 <html lang="en">
 
 <head>
-    <title>Database</title>
-    <link href="style.css" rel="stylesheet">
+   <title>Database</title>
+   <link href="style.css" rel="stylesheet">
 
-    <!-- Load the main app (Mandatory) -->
-    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
-    <!-- Load the firestore library only -->
-    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-firestore.js"></script>
+   <!-- Load the main app (Mandatory) -->
+   <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+   <!-- Load the firestore library only -->
+   <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-firestore.js"></script>
 </head>
 
 <body>
 
-    <p>16/09/2019</p>
-    <h1>Sort name by age</h1>
-    <h1>Using test database</h1>
-    <p>name must exsits and age must be greater >= 0</p>
-    <p>However the front end auto populates an empty string "" and 0 for no inputs</p>
-    <p> <a target="_blank" href="./test.html">
-            main page
-        </a></p>
-    <div class="content">
-        <!-- We use the id of the form as reference in app.js -->
-        <!-- We also use the name of input as reference in app.js -->
-        <form id="add-artifacts-form">
-            <input type="text" name="name" placeholder="name">
-            <input type="text" name="age" placeholder="age">
-            <button>Add</button>
-        </form>
+   <p>16/09/2019</p>
+   <h1>Sort name by age</h1>
+   <h1>Using test database</h1>
+   <p>name must exsits and age must be greater >= 0</p>
+   <p>However the front end auto populates an empty string "" and 0 for no inputs</p>
+   <p> <a target="_blank" href="./test.html">
+         main page
+      </a></p>
+   <div class="content">
+      <!-- We use the id of the form as reference in app.js -->
+      <!-- We also use the name of input as reference in app.js -->
+      <form id="add-artifacts-form">
+         <input type="text" name="name" placeholder="name">
+         <input type="text" name="age" placeholder="age">
+         <button>Add</button>
+      </form>
 
-        <!-- Where we display all the artifact data -->
-        <ul id="artifacts-list"></ul>
-    </div>
+      <!-- Where we display all the artifact data -->
+      <ul id="artifacts-list"></ul>
+   </div>
 
-    <!-- <button id="delete">Delete Database</button> -->
-    <button id="upload">Upload Sample Data</button>
-    <button id="delete-test">Delete Test</button>
+   <!-- <button id="delete">Delete Database</button> -->
+   <button id="upload">Upload and Merge Sample Data</button>
+   <button id="delete-test">Delete Test</button>
 
-    <ul id="output-list"></ul>
+   <ul id="output-list"></ul>
 
-    <script src="config.js"></script>
+   <script src="config.js"></script>
 
-    <script src="app.js"></script>
-    <script src="TestData/data.js"></script>
-    <script src="TestData/reset_data.js"></script>
+   <script src="app.js"></script>
+   <script src="TestData/data.js"></script>
+   <script src="TestData/reset_data.js"></script>
 </body>

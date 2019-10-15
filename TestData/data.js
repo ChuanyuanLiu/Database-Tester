@@ -83,7 +83,7 @@ const Artefacts = {
             name: "We moved into the current family house.",
             relation:
                "The family crest was moved into our family house when we moved. It was stored in the attic, among our other historical items.",
-            reference: "/Events/moveing_in_id"
+            reference: "/Events/moving_in_id"
          }
       ],
       media_links: [
@@ -176,6 +176,66 @@ const Addendums = {
       ]
    },
 
+   event_comment_id9: {
+      details: "2",
+      date_created: "08/04/2019",
+      created_by: "amanda",
+      reference: "/Artefacts/wedding_ring_id"
+   },
+   event_comment_id8: {
+      details: "2",
+      date_created: "08/04/2019",
+      created_by: "amanda",
+      reference: "/Artefacts/wedding_ring_id"
+   },
+   event_comment_id7: {
+      details: "2",
+      date_created: "08/04/2019",
+      created_by: "amanda",
+      reference: "/Artefacts/wedding_ring_id"
+   },
+   event_comment_id6: {
+      details: "2",
+      date_created: "08/04/2019",
+      created_by: "amanda",
+      reference: "/Artefacts/wedding_ring_id"
+   },
+   event_comment_id10: {
+      details: "2",
+      date_created: "08/04/2019",
+      created_by: "amanda",
+      reference: "/Artefacts/wedding_ring_id"
+   },
+   event_comment_id40: {
+      details: "2",
+      date_created: "08/04/2019",
+      created_by: "amanda",
+      reference: "/Artefacts/wedding_ring_id"
+   },
+   event_comment_id20: {
+      details: "2",
+      date_created: "08/04/2019",
+      created_by: "amanda",
+      reference: "/Artefacts/wedding_ring_id"
+   },
+   event_comment_id21: {
+      details: "2",
+      date_created: "08/04/2019",
+      created_by: "amanda",
+      reference: "/Artefacts/wedding_ring_id"
+   },
+   event_comment_id2: {
+      details: "2",
+      date_created: "08/04/2019",
+      created_by: "amanda",
+      reference: "/Artefacts/wedding_ring_id"
+   },
+   event_comment_id2: {
+      details: "2",
+      date_created: "08/04/2019",
+      created_by: "amanda",
+      reference: "/Artefacts/wedding_ring_id"
+   },
    event_comment_id1: {
       details: "1",
       date_created: "08/04/2019",
@@ -252,7 +312,7 @@ const People = {
       details: "Great crafts men. Grandpa of Ananda and Sam, father of Liam",
       artefacts_links: [
          {
-            name: "Coat of arms of the Gilbert Monument",
+            name: "Statue of the Coat of Arms of Gilbert",
             relation: "made by",
             reference: "/Artefacts/family_crest_monument_id"
          },
@@ -262,7 +322,7 @@ const People = {
             reference: "/Artefacts/family_crest_drawing_id"
          },
          {
-            name: "Recording of grandpa John making a crestt",
+            name: "Recording of grandpa John making a crest",
             relation: "recording of",
             reference: "/Artefacts/making_crest_id"
          }
